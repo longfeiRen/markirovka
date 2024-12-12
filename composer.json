@@ -1,0 +1,16 @@
+{
+    "name": "markirovka/signature",
+    "description": "markirovka",
+    "autoload": {
+        "psr-4": {
+            "Markirovka\\Signature\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.1.0",
+        "ext-json": "*",
+        "ext-curl": "*",
+        "guzzlehttp/guzzle": "^6.3",
+        "ext-php_CPCSP": "*"
+    }
+}
